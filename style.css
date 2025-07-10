@@ -235,6 +235,74 @@ nav {
     height: 232px;
 
 }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f8ff;
+}
+
+.lets-dhoira-mar {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 80px 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.lets h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+    color: #000;
+}
+
+.lets-dhoira-mar > div:nth-child(2) {
+    flex: 1;
+    max-width: 450px;
+}
+
+.lets-dhoira-mar label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.lets-dhoira-mar input,
+.lets-dhoira-mar textarea {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.lets-dhoira-mar textarea {
+    resize: vertical;
+}
+
+.lets-dhoira-mar button {
+    width: 100%;
+    padding: 14px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lets-dhoira-mar button:hover {
+    background-color: #4338ca;
+}
+
 
 .footer {
     text-align: center;
