@@ -6,6 +6,12 @@ nav {
     padding: 50px;
 }
 
+.margin {
+    margin-top: 116px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
 .logo {
 
     height: 51px;
@@ -96,7 +102,8 @@ nav {
     font-family: 'Raleway';
     font-size: 16px;
 }
-.action-flex-pic{
+
+.action-flex-pic {
     border-radius: 48px;
     overflow: hidden;
 }
@@ -111,11 +118,75 @@ nav {
 }
 
 .user-pading {
-    
+    text-align: center;
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.1);
+    padding: 20px;
+    margin: 116px;
+}
+
+.user-pading-h2 {
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+}
+
+.user-pading-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 40px;
+}
+
+.user-pading-div .div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.user-pading-div .div h1 {
+    color: rgb(78, 71, 255);
+    font-family: 'Inter';
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 97px;
+    margin-top: 40px;
 
 }
-.user-pading-h2
 
+.user-pading-div .div .p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 1px;
+}
+
+.our-user-say {
+    margin-top: 137px;
+
+    text-align: center;
+
+}
+
+.our-user-say-h {
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 49px;
+}
+
+.avatar-card-flex{
+    display: flex;
+    text-align: center;
+    margin: o auto;
+}
 .avater-card {
     padding: 24px;
 
@@ -182,10 +253,4 @@ nav {
 .footer-nav a:hover {
     color: #8987A1;
     color: black;
-}
-
-.margin {
-    margin-top: 116px;
-    margin-left: 140px;
-    margin-right: 140px;
 }
