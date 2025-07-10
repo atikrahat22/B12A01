@@ -168,25 +168,30 @@ nav {
 }
 
 .our-user-say {
-    margin-top: 137px;
 
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
 
 }
 
 .our-user-say-h {
     color: rgb(37, 36, 50);
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 42px;
     font-weight: 700;
     line-height: 49px;
+    text-align: center;
 }
 
-.avatar-card-flex{
+.avatar-card-flex {
     display: flex;
     text-align: center;
     margin: o auto;
+    text-align: left;
 }
+
 .avater-card {
     padding: 24px;
 
@@ -204,6 +209,13 @@ nav {
 
 }
 
+.ready-to-focus {
+    height: 690px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 137px;
+    justify-content: center;
+}
+
 .bg-color-second {
     background-color: #FFFFFF;
 }
@@ -218,11 +230,18 @@ nav {
 
 }
 
+.lets {
+    width: 528px;
+    height: 232px;
+
+}
+
 .footer {
     text-align: center;
-    padding-top: 104;
+    padding-top: 104px;
     padding-bottom: 100px;
-
+    background: rgb(255, 255, 255);
+    width: 100%;
 }
 
 .footer-logo {
@@ -230,27 +249,37 @@ nav {
     font-weight: 800;
     color: #3D3BF3;
     margin-bottom: 20px;
-    margin-top: 100px;
 }
 
 .footer-description {
     color: rgb(137, 135, 161);
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 .footer-nav a {
     margin: 0 15px;
-
     text-decoration: none;
     font-size: 15px;
     color: #8987A1;
-
-
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 
 .footer-nav a:hover {
-    color: #8987A1;
     color: black;
 }
