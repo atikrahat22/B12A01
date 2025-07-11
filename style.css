@@ -26,11 +26,18 @@ nav {
 
 .btn-primary {
     border-radius: 10px;
-    background: rgb(78, 71, 255);
     color: rgb(255, 255, 255);
     width: 132px;
     height: 48px;
     font-family: 'Raleway';
+    background-color: #4f46e5;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 0px;
+}
+.btn-primary:hover {
+    background-color: #17124e;
+
 
 }
 
@@ -59,9 +66,13 @@ nav {
 
     display: flex;
     align-items: center;
-    width: 170px;
+    
     margin: 0 auto;
     margin-top: 37px;
+    width: 170px;
+    height: 48px; 
+    border: 0px;
+    
 
 }
 
@@ -103,6 +114,12 @@ nav {
     font-size: 16px;
 }
 
+.action-flex-btn:hover{
+    background-color: #17124e;
+}
+
+
+
 .action-flex-pic {
     border-radius: 48px;
     overflow: hidden;
@@ -110,7 +127,7 @@ nav {
 
 .action-flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .action-flex-div {
@@ -184,7 +201,7 @@ nav {
     font-weight: 700;
     line-height: 49px;
     text-align: center;
-    
+
 }
 
 .avatar-card-flex {
@@ -267,7 +284,14 @@ nav {
     line-height: 150%;
     margin-top: 20px;
     margin-bottom: 20px;
+
+
 }
+
+.btn-get:hover {
+    background-color: #17124e;
+}
+
 
 .lets {
     width: 528px;
@@ -330,17 +354,18 @@ body {
 .lets-dhoira-mar button {
     width: 100%;
     padding: 14px;
-    background-color: #4f46e5;
+
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    background-color: #4f46e5;
 }
 
 .lets-dhoira-mar button:hover {
-    background-color: #4338ca;
+    background-color: #17124e;
 }
 
 
